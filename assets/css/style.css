@@ -1,0 +1,557 @@
+﻿/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+
+/* =============================================================
+   GENERAL STYLES
+ ============================================================ */
+ body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.set-pad {
+    padding-top:35px;
+}
+.set-row-pad {
+    padding-top:30px;
+    padding-bottom:50px;
+}
+/*=====================================
+  NAVBAR STYLES 
+    ===================================*/
+
+    /*=====================================
+  NAVBAR STYLES 
+    ===================================*/
+
+.navbar-nav > .dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    background-color: rgb(25 98 79); /* Same background color as navbar */
+    border: none; /* Remove border */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Add shadow */
+}
+
+.dropdown-menu > li > a {
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Adjust padding */
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: rgb(44, 178, 147); /* Darker background on hover */
+}
+
+/* Optional: Add styles for caret */
+.navbar-nav > .dropdown > a .caret {
+    border-top-color: #fff; /* White caret */
+}
+
+.logo-custom {
+    max-height: 70px;
+}
+
+#menu {
+    background-color: rgb(25 98 79);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    min-height: 95px;
+}
+
+
+.navbar-inverse {
+    border-color: transparent;
+}
+
+    .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:hover {
+        color: #FFF;
+        padding: 35px 10px;
+    }
+
+
+/*=====================================
+  HOME STYLES 
+    ===================================*/
+.home-sec {
+    padding-top: 10px;
+    padding-bottom: 60px;
+    background: url(../img/header.png) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+    .home-sec .overlay {
+        background: rgb(67 178 149 / 89%);
+        min-height: 500px;
+    }
+
+    .home-sec h1 {
+        color: #fff;
+        font-weight: 900;
+        font-size: 50px;
+        text-transform: uppercase;
+        padding-bottom: 35px;
+    }
+
+    .home-sec h3 {
+        text-transform: uppercase;
+    }
+
+
+
+.set-flexi {
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    -o-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    background-color: transparent;
+    border: 0px solid #000;
+    padding-top: 120px;
+}
+
+.flex-control-nav {
+    display: none!important;
+}
+
+.set-flexi a {
+    margin: 5px;
+}
+/*=====================================
+  TAG LINE STYLES 
+    ===================================*/
+
+.tag-line {
+    background: #E9E9E9;
+    color: #000;
+}
+
+    .tag-line h2 {
+        font-size: 20px;
+        font-weight: 900;
+        padding: 5px 10px 10px 5px;
+        color: #005E5A;
+    }
+
+        .tag-line h2 > i {
+            margin-left: 8px;
+            margin-right: 8px;
+        }
+/*=====================================
+  HEADER LINE STYLES 
+    ===================================*/
+.header-line {
+    font-weight: 900;
+    font-size: 25px;
+    padding-bottom: 5px;
+    padding-top: 25px;
+    color: #000;
+}
+
+h1::after {
+    content: " ";
+    border: solid 2px #2f9484;
+    display: block;
+    width: 200px;
+    margin: 12px auto;
+}
+
+/*=====================================
+  ABOUT STYLES 
+  ===================================*/
+.about-div {
+    padding: 30px;
+}
+
+.icon-round-border {
+    border: 10px double #1A94C4;
+    color: #2f9484;
+    text-align: center;
+    padding-top: 15px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+    .icon-round-border:hover {
+        color: #fff;
+        border: 10px double #fff;
+        background-color: #1A94C4;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+    }
+
+.about-div hr {
+    border: 1px solid #1A94C4;
+}
+
+.about-div h3 {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.about-div p {
+    padding-top: 10px;
+}
+
+.btn-set {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    margin-bottom: 20px;
+}
+/*=====================================
+  FACULTY STYLES 
+  ===================================*/
+#faculty-sec {
+    background-color: #000;
+    color: #fff;
+}
+
+    #faculty-sec .header-line {
+        color: #fff;
+    }
+.faculty-div h4 {
+    line-height:30px;
+    font-weight:700;
+}
+.faculty-div {
+    padding: 30px;
+}
+
+    .faculty-div hr {
+        border: 1px solid #1A94C4;
+    }
+
+    .faculty-div h3 {
+        font-size: 25px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .faculty-div p {
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .faculty-div img {
+        border: 10px double #fff;
+    }
+
+/*=====================================
+  CONTACT STYLES 
+  ===================================*/
+#contact-sec {
+    padding-top: 10px;
+    padding-bottom: 60px;
+    background: url(../img/contact.png) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+#contact-sec .overlay {
+        background: rgba(0, 0, 0, 0.76);
+        min-height: 600px;
+    }
+
+    #contact-sec h1 {
+        color:#fff;
+    }
+#contact-sec .form-control{
+    background-color:rgba(255, 255, 255, 0);
+    color:#fff;
+}
+/*=====================================
+  Footer STYLES 
+  ===================================*/
+#footer {
+    padding:5px 20px;
+    background-color:#19624e;
+    text-align:center;
+    color:#fff;
+    font-size:15px;
+}
+.faculty-div a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit color from parent */
+}
+
+.faculty-div a:hover {
+    color: #ff1900; /* Change this to your desired hover color */
+}
+
+.faculty-div img {
+    transition: transform 0.3s ease; /* Optional: Add a smooth zoom effect on hover */
+}
+
+.faculty-div img:hover {
+    transform: scale(1.05); /* Optional: Slightly zoom the image on hover */
+}
+.contact-info {
+    padding: 10px;
+    color: #000000; /* Matches the footer text color */
+    font-size: 16px;
+}
+.contact-info a {
+    color: #000000; /* White text color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+.contact-info a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content horizontally */
+}
+
+.university-logo {
+    max-height: 80px; /* Adjust the size of the logo */
+    margin-right: 15px; /* Space between the logo and the text */
+}
+
+.header-line {
+    font-weight: 900;
+    font-size: 25px;
+    padding-bottom: 5px;
+    padding-top: 25px;
+    color: #000;
+    margin: 0; /* Remove default margin */
+}
+
+h1::after {
+    content: " ";
+    border: solid 2px #2f9484;
+    display: block;
+    width: 200px;
+    margin: 12px auto;
+}
+
+.services-section {
+    padding: 30px;
+    background-color: #f9f9f9; /* Light background color for better readability */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Slight shadow for emphasis */
+}
+
+.services-section h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.services-section hr {
+    border: 0;
+    border-top: 2px solid #2f9484; /* Accent color to match your theme */
+    margin-bottom: 20px;
+}
+
+.service-item {
+    margin-bottom: 20px;
+}
+
+.service-item h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #2f9484; /* Accent color for subheadings */
+}
+
+.service-item p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+.service-item a.service-link {
+    color: #2f9484; /* Accent color for links */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.service-item a.service-link:hover {
+    color: #1a7f6d; /* Darker shade for hover effect */
+    text-decoration: underline; /* Underline on hover for emphasis */
+}
+
+
+
+.header-container {
+    text-align: center;
+}
+
+.scu-section {
+    margin-top: 40px;
+}
+
+.scu-section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.scu-section h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.scu-section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.scu-box {
+    margin-bottom: 40px;
+}
+
+.scu-box i {
+    margin-bottom: 20px;
+}
+
+.footer-line {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#footer p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+/*=====================================
+  GALLERY STYLES 
+  ===================================*/
+  .gallery {
+    margin-top: 30px;
+}
+
+.gallery-item {
+    margin-bottom: 20px;
+    text-align: center; /* Center the description text */
+}
+
+.gallery-item img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for images */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Shadow for images */
+    transition: transform 0.3s ease; /* Smooth zoom effect */
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.photo-description {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ffffff; /* Darker text for better readability */
+}
+/* Adding custom styles for Arabic text and layout adjustments */
+.service-title {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    font-family: 'Arial', sans-serif;
+}
+
+.service-item {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    direction: rtl; /* Added for RTL layout */
+    text-align: right; /* Added for RTL layout */
+}
+
+.service-item h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.service-item p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #555;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.university-logo {
+    max-width: 100%;
+    height: auto;
+}
+.servicesf-section {
+    padding: 30px;
+    background-color: #f9f9f9; /* Light background color for better readability */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Slight shadow for emphasis */
+}
+
+.servicesf-section h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.servicesf-section hr {
+    border: 0;
+    border-top: 2px solid #2f9484; /* Accent color to match your theme */
+    margin-bottom: 20px;
+}
+
+.servicef-item {
+    margin-bottom: 20px;
+}
+
+.servicef-item h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #2f9484; /* Accent color for subheadings */
+}
+
+.servicef-item p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+.servicef-item a.service-link {
+    color: #2f9484; /* Accent color for links */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.servicef-item a.service-link:hover {
+    color: #1a7f6d; /* Darker shade for hover effect */
+    text-decoration: underline; /* Underline on hover for emphasis */
+}
